@@ -20,7 +20,6 @@ ENV PATH=${PATH}:${JAVA_HOME}/bin
 
 # Please keep each package list in alphabetical order
 RUN apk --update add \
-    aufs-tools \
     bash \
     bzip2 \
     ca-certificates \
